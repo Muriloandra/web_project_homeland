@@ -83,7 +83,7 @@
   justify-content: end;
 }
 
-.places__text_local {
+.places__text-local {
   grid-area: local;
   padding-bottom: 25px;
   margin: 0;
@@ -91,7 +91,7 @@
   width: 100%;
 }
 
-.places__text_city {
+.places__text-city {
   grid-area: local;
 }
 

@@ -45,7 +45,7 @@
   padding-bottom: 10px;
 }
 
-.intro__paragraph_author {
+.intro__paragraph-author {
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
@@ -57,7 +57,7 @@
   padding-bottom: 32px;
 }
 
-.intro__paragraph_text {
+.intro__paragraph-text {
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
