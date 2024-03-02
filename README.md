@@ -1,6 +1,6 @@
 # Cidades dos Funcionários
 
-!Este é um projeto simples desenvolvido em HTML e CSS, que permite aos usuários visualizar informações sobre as cidades onde seus funcionários estão localizados.
+Este é um projeto simples desenvolvido em HTML e CSS, que permite aos usuários visualizar informações sobre as cidades onde seus funcionários estão localizados.
 
 ## Visão Geral
 
