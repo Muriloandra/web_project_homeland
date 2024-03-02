@@ -51,6 +51,9 @@
   color: #ffffff;
   margin: 0;
 }
+.places__artist-block {
+  display: block;
+}
 .places__img {
   grid-area: img;
   max-width: 460px;
