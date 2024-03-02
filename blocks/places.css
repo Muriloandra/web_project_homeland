@@ -1,0 +1,189 @@
+.places {
+  display: grid;
+  color: #ffffff;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "place author"
+    "img local"
+    "bot local"
+    ". local";
+  row-gap: 48px;
+  column-gap: 40px;
+  padding-top: 80px;
+}
+
+/* .places__sides {
+  grid-area: img;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+} */
+.places__title {
+  grid-area: place;
+  font-family: "Inter";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+  max-width: 462px;
+  width: 100%;
+}
+.places__sub {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  color: #aaaaaa;
+}
+
+.places__artist {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+}
+.places__img {
+  grid-area: img;
+  max-width: 460px;
+  width: 100%;
+  height: 460px;
+}
+
+.places__text {
+  grid-area: local;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 484px;
+  height: 100;
+}
+.places__author {
+  grid-area: author;
+  max-width: 456px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.places__text_local {
+  grid-area: local;
+  padding-bottom: 25px;
+  margin: 0;
+  max-width: 484px;
+  width: 100%;
+}
+
+.places__text_city {
+  grid-area: local;
+}
+
+.places__button {
+  grid-area: bot;
+  max-width: 285px;
+  width: 100%;
+  padding: 13px 20px 13px 20px;
+  border-radius: 4px;
+  background: #0278fe;
+  outline: none;
+  border: none;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  max-height: 48px;
+}
+
+@media (max-width: 1024px) {
+  .places {
+    max-width: 733px;
+  }
+
+  .places__title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .places__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.08px;
+    text-align: left;
+    letter-spacing: 0em;
+  }
+
+  .places__img {
+    max-width: 340px;
+    max-height: 340px;
+  }
+}
+@media (max-width: 720px) {
+  .places {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "place"
+      "author"
+      "img"
+      "local"
+      "bot";
+    gap: 30px 0;
+    max-width: 320px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .places__title {
+    margin-inline: 16px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-right: 0;
+    max-width: 288px;
+    width: 100%;
+  }
+
+  .places__sub {
+    margin: 0;
+  }
+  .places__author {
+    margin-inline: 16px;
+    margin-inline: 24px;
+    max-width: 288px;
+    width: 100%;
+  }
+  .places__artist-block {
+    display: block;
+  }
+
+  .places__text {
+    margin-inline: 16px;
+  }
+  .places__img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .places__button {
+    max-width: 288px;
+    width: 80%;
+    margin-left: 16px;
+  }
+}

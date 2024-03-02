@@ -1,0 +1,120 @@
+.cover {
+  background-image: linear-gradient(
+      rgba(42, 44, 47, 0.3),
+      rgba(42, 44, 47, 0.3)
+    ),
+    url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 1184px;
+  max-height: 740px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 92px;
+}
+
+.cover:hover {
+  background-image: linear-gradient(
+      rgba(42, 44, 47, 0.8),
+      rgba(42, 44, 47, 0.8)
+    ),
+    url("../images/cover.jpg");
+}
+
+.cover__visit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 243px;
+  padding-top: 243px;
+  width: 100%;
+}
+.cover__title {
+  font-family: "Inter";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+.cover__text {
+  width: 280px;
+  height: 66px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 32px;
+}
+.cover__button {
+  max-width: 285px;
+  width: 100%;
+  padding: 13px 20px 13px 20px;
+  border-radius: 4px;
+  background: #0278fe;
+  outline: none;
+  border: none;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  max-height: 48px;
+}
+
+.cover__button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+@media (min-width: 320px) and (max-width: 400px) {
+  .cover {
+    max-width: 320px;
+    width: 100%;
+  }
+  .cover__visit {
+    max-width: 288px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 45px;
+    padding-bottom: 46px;
+    align-items: center;
+  }
+
+  .cover__title {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .cover__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    max-width: 280px;
+    width: 100%;
+  }
+
+  .cover__button {
+    width: 191px;
+    padding: 13px, 20px, 13px, 20px;
+    border-radius: 4px;
+    gap: 10px;
+  }
+}

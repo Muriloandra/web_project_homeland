@@ -1,0 +1,129 @@
+.intro {
+  max-width: 984px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 148px;
+}
+.intro__image {
+  max-width: 984px;
+  width: 100%;
+  height: auto;
+}
+.intro__location {
+  max-width: 830px;
+  width: 100%;
+}
+.intro__title {
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  max-width: 830px;
+  width: 100%;
+  padding-top: 92px;
+  padding-bottom: 40px;
+  margin: 0;
+}
+.intro__paragraph {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  max-width: 737.78px;
+
+  margin: 0;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.intro__paragraph_author {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+.intro__paragraph_text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  max-width: 721.74px;
+
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    display: flex;
+    align-items: center;
+  }
+  .intro__location {
+    max-width: 720px;
+    width: 100%;
+    padding-inline: 24px;
+  }
+  .intro__image {
+    max-width: 768px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro__title {
+    max-width: 707px;
+    width: 100%;
+    padding-bottom: 58px;
+  }
+}
+
+@media (max-width: 720px) {
+  .intro__location {
+    max-width: 288px;
+    width: 100%;
+    margin: 0;
+    padding-inline: 16px;
+  }
+
+  .intro__image {
+    max-width: 320px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro__title {
+    max-width: 288px;
+    width: 90%;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .intro__paragraph {
+    line-height: 30px;
+  }
+
+  .intro__paragraph_text {
+    line-height: 26px;
+  }
+}
